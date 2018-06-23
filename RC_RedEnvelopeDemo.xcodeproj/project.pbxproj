@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3103D4DE20DCD68E00C7302D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3103D4DD20DCD68E00C7302D /* AppDelegate.m */; };
+		3103D4E120DCD68F00C7302D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3103D4E020DCD68F00C7302D /* ViewController.m */; };
+		3103D4E420DCD68F00C7302D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3103D4E220DCD68F00C7302D /* Main.storyboard */; };
+		3103D4E620DCD69000C7302D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3103D4E520DCD69000C7302D /* Assets.xcassets */; };
+		3103D4E920DCD69000C7302D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3103D4E720DCD69000C7302D /* LaunchScreen.storyboard */; };
+		3103D4EC20DCD69000C7302D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3103D4EB20DCD69000C7302D /* main.m */; };
+		3103D4F620DCD69000C7302D /* RC_RedEnvelopeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3103D4F520DCD69000C7302D /* RC_RedEnvelopeDemoTests.m */; };
+		3103D50320DCD82000C7302D /* RC_RedEnvelopeService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3103D50220DCD82000C7302D /* RC_RedEnvelopeService.m */; };
+		3103D50620DCE68900C7302D /* RC_RedEvModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3103D50520DCE68900C7302D /* RC_RedEvModel.m */; };
+		3103D50920DCE6D600C7302D /* RC_RedEvModelOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3103D50820DCE6D600C7302D /* RC_RedEvModelOperator.m */; };
+		3103D50C20DCE6F400C7302D /* RC_RedEvTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3103D50B20DCE6F400C7302D /* RC_RedEvTool.m */; };
+		3103D50F20DCE75100C7302D /* RC_RedEvNetworkOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3103D50E20DCE75100C7302D /* RC_RedEvNetworkOperator.m */; };
+		3103D51320DCFD5E00C7302D /* RC_RedEnvelopeLogicServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3103D51220DCFD5E00C7302D /* RC_RedEnvelopeLogicServer.m */; };
+		31079EE220DE640B0020AFC9 /* RC_RedEvAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 31079EE120DE640B0020AFC9 /* RC_RedEvAlert.m */; };
+		31079EE420DE64250020AFC9 /* RC_RedEvAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31079EE320DE64250020AFC9 /* RC_RedEvAlert.xib */; };
+		31079EE620DE65430020AFC9 /* back_girl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 31079EE520DE65430020AFC9 /* back_girl.jpg */; };
+		31079EE820DE69D40020AFC9 /* RC_RedEvTestPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31079EE720DE69D40020AFC9 /* RC_RedEvTestPlist.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3103D4F220DCD69000C7302D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3103D4D120DCD68E00C7302D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3103D4D820DCD68E00C7302D;
+			remoteInfo = RC_RedEnvelopeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3103D4D920DCD68E00C7302D /* RC_RedEnvelopeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RC_RedEnvelopeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3103D4DC20DCD68E00C7302D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3103D4DD20DCD68E00C7302D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3103D4DF20DCD68F00C7302D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3103D4E020DCD68F00C7302D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3103D4E320DCD68F00C7302D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3103D4E520DCD69000C7302D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3103D4E820DCD69000C7302D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3103D4EA20DCD69000C7302D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3103D4EB20DCD69000C7302D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3103D4F120DCD69000C7302D /* RC_RedEnvelopeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RC_RedEnvelopeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3103D4F520DCD69000C7302D /* RC_RedEnvelopeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RC_RedEnvelopeDemoTests.m; sourceTree = "<group>"; };
+		3103D4F720DCD69000C7302D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3103D50120DCD82000C7302D /* RC_RedEnvelopeService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RC_RedEnvelopeService.h; sourceTree = "<group>"; };
+		3103D50220DCD82000C7302D /* RC_RedEnvelopeService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RC_RedEnvelopeService.m; sourceTree = "<group>"; };
+		3103D50420DCE68900C7302D /* RC_RedEvModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RC_RedEvModel.h; sourceTree = "<group>"; };
+		3103D50520DCE68900C7302D /* RC_RedEvModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RC_RedEvModel.m; sourceTree = "<group>"; };
+		3103D50720DCE6D600C7302D /* RC_RedEvModelOperator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RC_RedEvModelOperator.h; sourceTree = "<group>"; };
+		3103D50820DCE6D600C7302D /* RC_RedEvModelOperator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RC_RedEvModelOperator.m; sourceTree = "<group>"; };
+		3103D50A20DCE6F400C7302D /* RC_RedEvTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RC_RedEvTool.h; sourceTree = "<group>"; };
+		3103D50B20DCE6F400C7302D /* RC_RedEvTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RC_RedEvTool.m; sourceTree = "<group>"; };
+		3103D50D20DCE75100C7302D /* RC_RedEvNetworkOperator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RC_RedEvNetworkOperator.h; sourceTree = "<group>"; };
+		3103D50E20DCE75100C7302D /* RC_RedEvNetworkOperator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RC_RedEvNetworkOperator.m; sourceTree = "<group>"; };
+		3103D51120DCFD5E00C7302D /* RC_RedEnvelopeLogicServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RC_RedEnvelopeLogicServer.h; sourceTree = "<group>"; };
+		3103D51220DCFD5E00C7302D /* RC_RedEnvelopeLogicServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RC_RedEnvelopeLogicServer.m; sourceTree = "<group>"; };
+		31079EDF20DE583B0020AFC9 /* RC_RedEvExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RC_RedEvExtension.h; sourceTree = "<group>"; };
+		31079EE020DE640B0020AFC9 /* RC_RedEvAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RC_RedEvAlert.h; sourceTree = "<group>"; };
+		31079EE120DE640B0020AFC9 /* RC_RedEvAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RC_RedEvAlert.m; sourceTree = "<group>"; };
+		31079EE320DE64250020AFC9 /* RC_RedEvAlert.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RC_RedEvAlert.xib; sourceTree = "<group>"; };
+		31079EE520DE65430020AFC9 /* back_girl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back_girl.jpg; sourceTree = "<group>"; };
+		31079EE720DE69D40020AFC9 /* RC_RedEvTestPlist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RC_RedEvTestPlist.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3103D4D620DCD68E00C7302D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3103D4EE20DCD69000C7302D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3103D4D020DCD68E00C7302D = {
+			isa = PBXGroup;
+			children = (
+				3103D51020DCFA4B00C7302D /* RC_RedEnvelopLogic */,
+				3103D50020DCD69400C7302D /* RC_RedEnvelopeService */,
+				3103D4DB20DCD68E00C7302D /* RC_RedEnvelopeDemo */,
+				3103D4F420DCD69000C7302D /* RC_RedEnvelopeDemoTests */,
+				3103D4DA20DCD68E00C7302D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3103D4DA20DCD68E00C7302D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3103D4D920DCD68E00C7302D /* RC_RedEnvelopeDemo.app */,
+				3103D4F120DCD69000C7302D /* RC_RedEnvelopeDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3103D4DB20DCD68E00C7302D /* RC_RedEnvelopeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3103D4DC20DCD68E00C7302D /* AppDelegate.h */,
+				3103D4DD20DCD68E00C7302D /* AppDelegate.m */,
+				3103D4DF20DCD68F00C7302D /* ViewController.h */,
+				3103D4E020DCD68F00C7302D /* ViewController.m */,
+				3103D4E220DCD68F00C7302D /* Main.storyboard */,
+				3103D4E520DCD69000C7302D /* Assets.xcassets */,
+				3103D4E720DCD69000C7302D /* LaunchScreen.storyboard */,
+				3103D4EA20DCD69000C7302D /* Info.plist */,
+				3103D4EB20DCD69000C7302D /* main.m */,
+			);
+			path = RC_RedEnvelopeDemo;
+			sourceTree = "<group>";
+		};
+		3103D4F420DCD69000C7302D /* RC_RedEnvelopeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3103D4F520DCD69000C7302D /* RC_RedEnvelopeDemoTests.m */,
+				3103D4F720DCD69000C7302D /* Info.plist */,
+			);
+			path = RC_RedEnvelopeDemoTests;
+			sourceTree = "<group>";
+		};
+		3103D50020DCD69400C7302D /* RC_RedEnvelopeService */ = {
+			isa = PBXGroup;
+			children = (
+				3103D50120DCD82000C7302D /* RC_RedEnvelopeService.h */,
+				3103D50220DCD82000C7302D /* RC_RedEnvelopeService.m */,
+				3103D50D20DCE75100C7302D /* RC_RedEvNetworkOperator.h */,
+				3103D50E20DCE75100C7302D /* RC_RedEvNetworkOperator.m */,
+				3103D50420DCE68900C7302D /* RC_RedEvModel.h */,
+				3103D50520DCE68900C7302D /* RC_RedEvModel.m */,
+				3103D50720DCE6D600C7302D /* RC_RedEvModelOperator.h */,
+				3103D50820DCE6D600C7302D /* RC_RedEvModelOperator.m */,
+				3103D50A20DCE6F400C7302D /* RC_RedEvTool.h */,
+				3103D50B20DCE6F400C7302D /* RC_RedEvTool.m */,
+				31079EDF20DE583B0020AFC9 /* RC_RedEvExtension.h */,
+				31079EE720DE69D40020AFC9 /* RC_RedEvTestPlist.plist */,
+			);
+			path = RC_RedEnvelopeService;
+			sourceTree = "<group>";
+		};
+		3103D51020DCFA4B00C7302D /* RC_RedEnvelopLogic */ = {
+			isa = PBXGroup;
+			children = (
+				31079EE520DE65430020AFC9 /* back_girl.jpg */,
+				3103D51120DCFD5E00C7302D /* RC_RedEnvelopeLogicServer.h */,
+				3103D51220DCFD5E00C7302D /* RC_RedEnvelopeLogicServer.m */,
+				31079EE020DE640B0020AFC9 /* RC_RedEvAlert.h */,
+				31079EE120DE640B0020AFC9 /* RC_RedEvAlert.m */,
+				31079EE320DE64250020AFC9 /* RC_RedEvAlert.xib */,
+			);
+			path = RC_RedEnvelopLogic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3103D4D820DCD68E00C7302D /* RC_RedEnvelopeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3103D4FA20DCD69000C7302D /* Build configuration list for PBXNativeTarget "RC_RedEnvelopeDemo" */;
+			buildPhases = (
+				3103D4D520DCD68E00C7302D /* Sources */,
+				3103D4D620DCD68E00C7302D /* Frameworks */,
+				3103D4D720DCD68E00C7302D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RC_RedEnvelopeDemo;
+			productName = RC_RedEnvelopeDemo;
+			productReference = 3103D4D920DCD68E00C7302D /* RC_RedEnvelopeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3103D4F020DCD69000C7302D /* RC_RedEnvelopeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3103D4FD20DCD69000C7302D /* Build configuration list for PBXNativeTarget "RC_RedEnvelopeDemoTests" */;
+			buildPhases = (
+				3103D4ED20DCD69000C7302D /* Sources */,
+				3103D4EE20DCD69000C7302D /* Frameworks */,
+				3103D4EF20DCD69000C7302D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3103D4F320DCD69000C7302D /* PBXTargetDependency */,
+			);
+			name = RC_RedEnvelopeDemoTests;
+			productName = RC_RedEnvelopeDemoTests;
+			productReference = 3103D4F120DCD69000C7302D /* RC_RedEnvelopeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3103D4D120DCD68E00C7302D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Ray;
+				TargetAttributes = {
+					3103D4D820DCD68E00C7302D = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					3103D4F020DCD69000C7302D = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 3103D4D820DCD68E00C7302D;
+					};
+				};
+			};
+			buildConfigurationList = 3103D4D420DCD68E00C7302D /* Build configuration list for PBXProject "RC_RedEnvelopeDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3103D4D020DCD68E00C7302D;
+			productRefGroup = 3103D4DA20DCD68E00C7302D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3103D4D820DCD68E00C7302D /* RC_RedEnvelopeDemo */,
+				3103D4F020DCD69000C7302D /* RC_RedEnvelopeDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3103D4D720DCD68E00C7302D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31079EE420DE64250020AFC9 /* RC_RedEvAlert.xib in Resources */,
+				3103D4E920DCD69000C7302D /* LaunchScreen.storyboard in Resources */,
+				3103D4E620DCD69000C7302D /* Assets.xcassets in Resources */,
+				3103D4E420DCD68F00C7302D /* Main.storyboard in Resources */,
+				31079EE620DE65430020AFC9 /* back_girl.jpg in Resources */,
+				31079EE820DE69D40020AFC9 /* RC_RedEvTestPlist.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3103D4EF20DCD69000C7302D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3103D4D520DCD68E00C7302D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31079EE220DE640B0020AFC9 /* RC_RedEvAlert.m in Sources */,
+				3103D50320DCD82000C7302D /* RC_RedEnvelopeService.m in Sources */,
+				3103D50C20DCE6F400C7302D /* RC_RedEvTool.m in Sources */,
+				3103D4E120DCD68F00C7302D /* ViewController.m in Sources */,
+				3103D51320DCFD5E00C7302D /* RC_RedEnvelopeLogicServer.m in Sources */,
+				3103D50620DCE68900C7302D /* RC_RedEvModel.m in Sources */,
+				3103D50F20DCE75100C7302D /* RC_RedEvNetworkOperator.m in Sources */,
+				3103D4EC20DCD69000C7302D /* main.m in Sources */,
+				3103D4DE20DCD68E00C7302D /* AppDelegate.m in Sources */,
+				3103D50920DCE6D600C7302D /* RC_RedEvModelOperator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3103D4ED20DCD69000C7302D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3103D4F620DCD69000C7302D /* RC_RedEnvelopeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3103D4F320DCD69000C7302D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3103D4D820DCD68E00C7302D /* RC_RedEnvelopeDemo */;
+			targetProxy = 3103D4F220DCD69000C7302D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3103D4E220DCD68F00C7302D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3103D4E320DCD68F00C7302D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3103D4E720DCD69000C7302D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3103D4E820DCD69000C7302D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3103D4F820DCD69000C7302D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3103D4F920DCD69000C7302D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3103D4FB20DCD69000C7302D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LL8F85Z68Y;
+				INFOPLIST_FILE = RC_RedEnvelopeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haodai.RC-RedEnvelopeDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3103D4FC20DCD69000C7302D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LL8F85Z68Y;
+				INFOPLIST_FILE = RC_RedEnvelopeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haodai.RC-RedEnvelopeDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3103D4FE20DCD69000C7302D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LL8F85Z68Y;
+				INFOPLIST_FILE = RC_RedEnvelopeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haodai.RC-RedEnvelopeDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RC_RedEnvelopeDemo.app/RC_RedEnvelopeDemo";
+			};
+			name = Debug;
+		};
+		3103D4FF20DCD69000C7302D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LL8F85Z68Y;
+				INFOPLIST_FILE = RC_RedEnvelopeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haodai.RC-RedEnvelopeDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RC_RedEnvelopeDemo.app/RC_RedEnvelopeDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3103D4D420DCD68E00C7302D /* Build configuration list for PBXProject "RC_RedEnvelopeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3103D4F820DCD69000C7302D /* Debug */,
+				3103D4F920DCD69000C7302D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3103D4FA20DCD69000C7302D /* Build configuration list for PBXNativeTarget "RC_RedEnvelopeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3103D4FB20DCD69000C7302D /* Debug */,
+				3103D4FC20DCD69000C7302D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3103D4FD20DCD69000C7302D /* Build configuration list for PBXNativeTarget "RC_RedEnvelopeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3103D4FE20DCD69000C7302D /* Debug */,
+				3103D4FF20DCD69000C7302D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3103D4D120DCD68E00C7302D /* Project object */;
+}
